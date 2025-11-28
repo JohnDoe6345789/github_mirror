@@ -1,0 +1,13 @@
+
+[project]
+name="github-mirror-tool"
+version="0.1.0"
+description="Mirror public GitHub repos safely"
+requires-python=">=3.9"
+dependencies=["requests"]
+
+[tool.mypy]
+strict = true
+
+[project.scripts]
+github-mirror="mirror:main"
